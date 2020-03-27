@@ -133,12 +133,12 @@ public class SakaiProxyImpl implements SakaiProxy {
         yn.setSakaiProxy(this);
         ne.setAction(yn);
 
-        NotificationEdit ne2 = notificationService.addTransientNotification();
-        ne2.setResourceFilter(ClogManager.REFERENCE_ROOT);
-        ne2.setFunction(ClogManager.CLOG_COMMENT_CREATED);
-        NewCommentNotification cn = new NewCommentNotification();
-        cn.setSakaiProxy(this);
-        ne2.setAction(cn);
+        //NotificationEdit ne2 = notificationService.addTransientNotification();
+        //ne2.setResourceFilter(ClogManager.REFERENCE_ROOT);
+        //ne2.setFunction(ClogManager.CLOG_COMMENT_CREATED);
+        //NewCommentNotification cn = new NewCommentNotification();
+        //cn.setSakaiProxy(this);
+        //ne2.setAction(cn);
     }
 
     public void destroy() {
